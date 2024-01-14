@@ -40,12 +40,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 However, we've used a more modern JavaScript feature to solve the problem, 
 the `defer` attribute, which tells the browser to continue downloading the 
-HTML content once the `<script&gt;` tag element has been reached.
+HTML content once the `<script>` tag element has been reached.
 
 ```js
-<script src="scripts/script.js" defer&gt;
+<script src="scripts/script.js" defer>
 
-</script&gt;
+</script>
 ```
 
 In this case both the script and the HTML will load simultaneously and the 
@@ -55,7 +55,7 @@ code will work.
 internal scripts, use the `DOMContentLoaded` option.
 
 An old-fashioned solution to this problem used to be to put your script 
-element right at the bottom of the body (e.g. just before the </body&gt; 
+element right at the bottom of the body (e.g. just before the </body> 
 tag), so that it would load after all the HTML has been parsed. The problem 
 with this solution is that loading/parsing of the script is completely 
 blocked until the HTML DOM has been loaded. On larger sites with lots of 
@@ -67,31 +67,31 @@ There are actually two modern features we can use to bypass the problem of
 the blocking script - `async` and `defer`. 
 
 ```html
-<script async src="js/vendor/jquery.js"&gt;
+<script async src="js/vendor/jquery.js">
 
-</script&gt;
+</script>
 
-<script async src="js/script2.js"&gt;
+<script async src="js/script2.js">
 
-</script&gt;
+</script>
 
-<script async src="js/script3.js"&gt;
+<script async src="js/script3.js">
 
-</script&gt;
+</script>
 ```
 
 ```html
-<script defer  src="js/vendor/jquery.js"&gt;
+<script defer  src="js/vendor/jquery.js">
 
-</script&gt;
+</script>
 
-<script defer  src="js/script2.js"&gt;
+<script defer  src="js/script2.js">
 
-</script&gt;
+</script>
 
-<script defer  src="js/script3.js"&gt;
+<script defer  src="js/script3.js">
 
-</script&gt;
+</script>
 ```
 
 This is a summary of how they work:
@@ -106,7 +106,7 @@ only execute once everything has finished loading.
 dependencies, then use `async`.
 - If your scripts need to wait for parsing and depend on other scripts and/or 
 the DOM being in place, load them using defer and put their corresponding 
-`<script&gt;` elements in the order you want the browser to execute them.
+`<script>` elements in the order you want the browser to execute them.
 
 ## JavaScript Comments
 
