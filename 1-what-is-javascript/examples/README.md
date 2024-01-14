@@ -8,9 +8,9 @@ to implement dynamic behavior.
 This example shows us that we can use JavaScript to:
 - Store useful values inside variables. For example, we ask for a new name 
 to be entered then store that name in a variable called `name`.
-- Operate on pieces of text (known as &quot;strings&quot; in programming). 
-For example, we take the string &quot;Player 1: &quot; and join it to the 
-name variable to create the complete text label, e.g. &quot;Player 1: Chris&quot;.
+- Operate on pieces of text (known as "strings" in programming). 
+For example, we take the string "Player 1: " and join it to the 
+name variable to create the complete text label, e.g. "Player 1: Chris".
 - Running code in response to certain events occurring on a web page. For 
 example, we used a `click` event in our example above to detect when the 
 label is clicked and then run the code that updates the text label.
@@ -33,7 +33,7 @@ block will not run until after that event is fired, therefore the error is
 avoided.
 
 ```js
-document.addEventListener(&quot;DOMContentLoaded&quot;, () => {
+document.addEventListener("DOMContentLoaded", () => {
   // …
 });      
 ```
@@ -43,7 +43,7 @@ the `defer` attribute, which tells the browser to continue downloading the
 HTML content once the `&lt;script&gt;` tag element has been reached.
 
 ```js
-&lt;script src=&quot;scripts/script.js&quot; defer&gt;
+&lt;script src="scripts/script.js" defer&gt;
 
 &lt;/script&gt;
 ```
@@ -67,29 +67,29 @@ There are actually two modern features we can use to bypass the problem of
 the blocking script - `async` and `defer`. 
 
 ```html
-&lt;script async src=&quot;js/vendor/jquery.js&quot;&gt;
+&lt;script async src="js/vendor/jquery.js"&gt;
 
 &lt;/script&gt;
 
-&lt;script async src=&quot;js/script2.js&quot;&gt;
+&lt;script async src="js/script2.js"&gt;
 
 &lt;/script&gt;
 
-&lt;script async src=&quot;js/script3.js&quot;&gt;
+&lt;script async src="js/script3.js"&gt;
 
 &lt;/script&gt;
 ```
 
 ```html
-&lt;script defer  src=&quot;js/vendor/jquery.js&quot;&gt;
+&lt;script defer  src="js/vendor/jquery.js"&gt;
 
 &lt;/script&gt;
 
-&lt;script defer  src=&quot;js/script2.js&quot;&gt;
+&lt;script defer  src="js/script2.js"&gt;
 
 &lt;/script&gt;
 
-&lt;script defer  src=&quot;js/script3.js&quot;&gt;
+&lt;script defer  src="js/script3.js"&gt;
 
 &lt;/script&gt;
 ```
