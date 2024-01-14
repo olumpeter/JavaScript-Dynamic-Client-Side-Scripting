@@ -4,4 +4,4 @@ I will show you the projects I build using HTML, CSS and JavaScript that are mea
 
 ## Content:
 
-- [What is JavaScript?](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/1-what-is-javascript/examples)
+1. [What is JavaScript?](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/1-what-is-javascript/examples)
