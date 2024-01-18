@@ -384,3 +384,17 @@ See the code for this task 2 below.
 ### Task 3
 
 See the code for this task 3 below.
+
+
+## How you can access this live website
+
+<dl>
+  Use the following URL:
+  <dd>
+    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/3-storing-the-information-you-need--variables/a-what-is-a-variable/
+  </dd>
+  or click the following link:
+  <dd>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/3-storing-the-information-you-need--variables/a-what-is-a-variable">Visit website</a>
+  </dd>
+</dl>
