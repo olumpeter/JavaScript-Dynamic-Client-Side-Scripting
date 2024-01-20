@@ -57,7 +57,7 @@ or backticks (```) to wrap your strings in. All of the following will work:
 
 ```js
 const single = 'Single quotes';
-const double = &quot;Double quotes&quot;;
+const double = "Double quotes";
 const backtick = `Backtick`;
 
 console.log(single);
@@ -69,7 +69,7 @@ You must use the same character for the start and end of a string, or you
 will get an error:
 
 ```js
-const badQuotes = 'This is not allowed!&quot;;
+const badQuotes = 'This is not allowed!";
 ```
 
 Strings declared using single quotes and strings declared using double 
@@ -192,14 +192,14 @@ Since we use quotes to indicate the start and end of strings, how can we
 include actual quotes in strings? We know that this won't work:
 
 ```js
-const badQuotes = &quot;She said &quot;I think so!&quot;&quot;;
+const badQuotes = "She said "I think so!"";
 ```
 
 One common option is to use one of the other characters to declare the string:
 
 ```js
-const goodQuotes1 = 'She said &quot;I think so!&quot;';
-const goodQuotes2 = `She said &quot;I'm not going in there!&quot;`
+const goodQuotes1 = 'She said "I think so!"';
+const goodQuotes2 = `She said "I'm not going in there!"`
 ```
 
 Another option is to escape the problem quotation mark. Escaping characters 
