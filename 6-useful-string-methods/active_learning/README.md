@@ -308,73 +308,73 @@ We'd recommend doing it like this:
   1. Change the value of the result variable to the final string, not the 
   station.
 
-  ## Test your skills!
+## Test your skills!
 
-  You've reached the end of this article, but can you remember the most 
-  important information? You can find some further tests to verify that 
-  you've retained this information before you move on — 
-  see [Test your skills: Strings](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Test_your_skills:_Strings).
-  
-  ### Task 1
+You've reached the end of this article, but can you remember the most 
+important information? You can find some further tests to verify that 
+you've retained this information before you move on — 
+see [Test your skills: Strings](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Test_your_skills:_Strings).
 
-  The first task asks you to store a new string in a variable to go along 
-  with the existing one, which contains the missing half of the famous quote. 
-  Call the new variable you add quoteEnd.
+### Task 1
 
-  You'll also need to escape the apostrophe in the existing string so that 
-  it doesn't throw an error.
+The first task asks you to store a new string in a variable to go along 
+with the existing one, which contains the missing half of the famous quote. 
+Call the new variable you add quoteEnd.
 
-  Finally, you'll need to concatenate the two strings together, and store 
-  the result in a variable called finalQuote.
+You'll also need to escape the apostrophe in the existing string so that 
+it doesn't throw an error.
 
-  ### Task 2
+Finally, you'll need to concatenate the two strings together, and store 
+the result in a variable called finalQuote.
 
-  Next up, task 2 requires the student to:
+### Task 2
 
-    - Check the length of the provided string using `.length`, and store the 
-    result in a variable called quoteLength.
-    - Find the index of the substring 'green eggs and ham' using `.indexOf` 
-    and store it in index.
-    - Use a combination of the variables you have, `.length`, and `.slice()`, 
-    to trim down the original quote to 'I do not like green eggs and ham.', 
-    and store it in `revisedQuote`.
+Next up, task 2 requires the student to:
 
-  ### Task 3
+  - Check the length of the provided string using `.length`, and store the 
+  result in a variable called quoteLength.
+  - Find the index of the substring 'green eggs and ham' using `.indexOf` 
+  and store it in index.
+  - Use a combination of the variables you have, `.length`, and `.slice()`, 
+  to trim down the original quote to 'I do not like green eggs and ham.', 
+  and store it in `revisedQuote`.
 
-  For our next string task, we return to our Green Eggs and Ham revised 
-  quote, which someone has messed up. You need to:
+### Task 3
 
-    - Fix the casing. The best way to do this is to put it all in lower case 
-  using `.toLowerCase()`, and then put the first letter in uppercase using 
-  `replace()`, `slice()`, and `toUpperCase()`. Store the new quote in 
-  fixedQuote.
-    - Replace green eggs and ham with whatever food you really don't like 
-    using `replace()`.
-    - Add a full stop to the end of the sentence using some means.
+For our next string task, we return to our Green Eggs and Ham revised 
+quote, which someone has messed up. You need to:
 
-  ### Task 4
+  - Fix the casing. The best way to do this is to put it all in lower case 
+using `.toLowerCase()`, and then put the first letter in uppercase using 
+`replace()`, `slice()`, and `toUpperCase()`. Store the new quote in 
+fixedQuote.
+  - Replace green eggs and ham with whatever food you really don't like 
+  using `replace()`.
+  - Add a full stop to the end of the sentence using some means.
 
-  Our final string task looks at your ability to use template literals. Your 
-  answer is expected to take the existing string literal, `myString`, turn it 
-  into a template literal, and include four placeholders in place of the 
-  asterisks:
+### Task 4
 
-    - The theorem string.
-    - The value of `a`.
-    - The value of `b`.
-    - The length of the hypotenuse, if `a` and `b` are the lengths of the 
-    two shortest sides of a right-angled triangle. You can use pythagoras' 
-    theorem to work this out.
+Our final string task looks at your ability to use template literals. Your 
+answer is expected to take the existing string literal, `myString`, turn it 
+into a template literal, and include four placeholders in place of the 
+asterisks:
 
-  ## Conclusion
+  - The theorem string.
+  - The value of `a`.
+  - The value of `b`.
+  - The length of the hypotenuse, if `a` and `b` are the lengths of the 
+  two shortest sides of a right-angled triangle. You can use pythagoras' 
+  theorem to work this out.
 
-  You can't escape the fact that being able to handle words and sentences 
-  in programming is very important — particularly in JavaScript, as websites 
-  are all about communicating with people. This article has given you the 
-  basics that you need to know about manipulating strings for now. This 
-  should serve you well as you go into more complex topics in the future. 
-  Next, we're going to look at the last major type of data we need to focus 
-  on in the short term — arrays.
+## Conclusion
+
+You can't escape the fact that being able to handle words and sentences 
+in programming is very important — particularly in JavaScript, as websites 
+are all about communicating with people. This article has given you the 
+basics that you need to know about manipulating strings for now. This 
+should serve you well as you go into more complex topics in the future. 
+Next, we're going to look at the last major type of data we need to focus 
+on in the short term — arrays.
 
 ## How you can access this live website
 
