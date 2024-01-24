@@ -83,7 +83,7 @@ console.log(shopping);
 **Note:** We've said it before, but just as a reminder — computers start 
 counting from 0!
 
-3. Note that an array inside an array is called a multidimensional array. You 
+1. Note that an array inside an array is called a multidimensional array. You 
 can access an item inside an array that is itself inside another array by 
 chaining two sets of square brackets together. For example, to access one of the 
 items inside the array that is the third item inside the random array 
@@ -94,7 +94,7 @@ const random = ['tree', 795, [0, 1, 2]];
 random[2][2];
 ```
 
-4. Try making some more modifications to your array examples before moving on. 
+1. Try making some more modifications to your array examples before moving on. 
 Play around a bit, and see what works and what doesn't.
 
 ```js
@@ -252,14 +252,14 @@ your console:
 const data = 'Manchester,London,Liverpool,Birmingham,Leeds,Carlisle';
 ```
 
-2. Now let's split it at each comma:
+1. Now let's split it at each comma:
 
 ```js
 const cities = data.split(',');
 cities;
 ```
 
-3. You can also go the opposite way using the `join()` method. Try the 
+1. You can also go the opposite way using the `join()` method. Try the 
 following:
 
 ```js
@@ -267,7 +267,7 @@ const commaSeparated = cities.join(',');
 commaSeparated;
 ```
 
-4. Another way of converting an array to a string is to use the `toString()` 
+1. Another way of converting an array to a string is to use the `toString()` 
 method. `toString()` is arguably simpler than `join()` as it doesn't take 
 a parameter, but more limiting. With join() you can specify different separators, 
 whereas `toString()` always uses a comma. (Try running Step 4 with a different 
@@ -288,28 +288,28 @@ to the code. They are as follows:
   1. Below the `// number 1` comment are a number of strings, each one 
   containing a product name and price separated by a colon. We'd like you 
   to turn this into an array and store it in an array called products.
-  2. Below the `// number 2` comment, start a `for...of()` loop to go through 
+  1. Below the `// number 2` comment, start a `for...of()` loop to go through 
   every item in the products array.
-  3. Below the `// number 3` comment we want you to write a line of code 
+  1. Below the `// number 3` comment we want you to write a line of code 
   that splits the current array item (`name:price`) into two separate items, 
   one containing just the name and one containing just the price. If you are 
   not sure how to do this, consult the Useful string methods article for some 
   help, or even better, look at the Converting between strings and arrays 
   section of this article.
-  4. As part of the above line of code, you'll also want to convert the price 
+  1. As part of the above line of code, you'll also want to convert the price 
   from a string to a number. If you can't remember how to do this, check out t
   he first strings article.
-  5. There is a variable called total that is created and given a value of 0 
+  1. There is a variable called total that is created and given a value of 0 
   at the top of the code. Inside the loop (below `// number 4`) we want you to 
   add a line that adds the current item price to that total in each iteration 
   of the loop, so that at the end of the code the correct total is printed onto 
   the invoice. You might need an assignment operator to do this.
-  6. We want you to change the line just below `// number 5` so that the 
+  1. We want you to change the line just below `// number 5` so that the 
   itemText variable is made equal to 'current item name — $current item price', 
   for example 'Shoes — $23.99' in each case, so the correct information for 
   each item is printed on the invoice. This is just simple string concatenation, 
   which should be familiar to you.
-  7. Finally, below the '// number 6' comment, you'll need to add a `}` to 
+  1. Finally, below the '// number 6' comment, you'll need to add a `}` to 
   mark the end of the 'for...of()` loop.
 
 ## Active learning: Top 5 searches
