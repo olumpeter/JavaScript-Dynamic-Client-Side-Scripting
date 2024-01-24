@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body ~ div {
+    margin-bottom: 50px;
+}
+
+/* Test your skills: Arrays */
+
+.test_your_skills_arrays p {
+    color: purple;
+    margin: 0.5em 0;
+}
