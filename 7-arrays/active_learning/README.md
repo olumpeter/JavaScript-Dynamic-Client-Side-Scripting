@@ -31,7 +31,7 @@ code into the console:
 const shopping = ['bread', 'milk', 'cheese', 'hummus', 'noodles'];
 console.log(shopping);
 ```
-1. In the above example, each item is a string, but in an array we can store 
+2. In the above example, each item is a string, but in an array we can store 
 various data types — strings, numbers, objects, and even other arrays. We can 
 also mix data types in a single array — we do not have to limit ourselves to 
 storing only numbers in one array, and in another only strings. For example:
@@ -39,7 +39,7 @@ storing only numbers in one array, and in another only strings. For example:
 const sequence = [1, 1, 2, 3, 5, 8, 13];
 const random = ['tree', 795, [0, 1, 2]];
 ```
-1. Before proceeding, create a few example arrays.
+3. Before proceeding, create a few example arrays.
 
 ## Finding the length of an array
 
@@ -67,7 +67,7 @@ console.log(shopping[0]);
 // returns 'bread'
 ```
 
-1. You can also modify an item in an array by giving a single array item a new 
+2. You can also modify an item in an array by giving a single array item a new 
 value. Try this:
 
 const shopping = ['bread', 'milk', 'cheese', 'hummus', 'noodles'];
@@ -78,7 +78,7 @@ console.log(shopping);
 **Note:** We've said it before, but just as a reminder — computers start 
 counting from 0!
 
-1. Note that an array inside an array is called a multidimensional array. You 
+3. Note that an array inside an array is called a multidimensional array. You 
 can access an item inside an array that is itself inside another array by 
 chaining two sets of square brackets together. For example, to access one of the 
 items inside the array that is the third item inside the random array 
@@ -89,7 +89,7 @@ const random = ['tree', 795, [0, 1, 2]];
 random[2][2];
 ```
 
-1. Try making some more modifications to your array examples before moving on. 
+4. Try making some more modifications to your array examples before moving on. 
 Play around a bit, and see what works and what doesn't.
 
 ```js
@@ -247,14 +247,14 @@ your console:
 const data = 'Manchester,London,Liverpool,Birmingham,Leeds,Carlisle';
 ```
 
-1. Now let's split it at each comma:
+2. Now let's split it at each comma:
 
 ```js
 const cities = data.split(',');
 cities;
 ```
 
-1. You can also go the opposite way using the `join()` method. Try the 
+3. You can also go the opposite way using the `join()` method. Try the 
 following:
 
 ```js
@@ -262,7 +262,7 @@ const commaSeparated = cities.join(',');
 commaSeparated;
 ```
 
-1. Another way of converting an array to a string is to use the `toString()` 
+4. Another way of converting an array to a string is to use the `toString()` 
 method. `toString()` is arguably simpler than `join()` as it doesn't take 
 a parameter, but more limiting. With join() you can specify different separators, 
 whereas `toString()` always uses a comma. (Try running Step 4 with a different 
@@ -398,11 +398,11 @@ For this array task, we provide you with a starting array, and you will
 work in somewhat the opposite direction. You need to:
 
 1. Remove the last item in the array.
-1. Add two new names to the end of the array.
-1. Go over each item in the array and add its index number after the name 
+2. Add two new names to the end of the array.
+3. Go over each item in the array and add its index number after the name 
 inside parentheses, for example `Ryu (0)`. Note that we don't teach how to 
 do this in the Arrays article, so you'll have to do some research.
-1. Finally, join the array items together in a single string called `myString`, 
+4. Finally, join the array items together in a single string called `myString`, 
 with a separator of '-'.
 
 You should start by popping the last item off the array using `myArray.pop()`.
