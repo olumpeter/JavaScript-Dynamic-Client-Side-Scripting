@@ -25,25 +25,20 @@ about 100 items, or 1000? We'll return to this example later on in the article.
 ## Creating arrays
 
 Arrays consist of square brackets and items that are separated by commas.
-
 1. Suppose we want to store a shopping list in an array. Paste the following 
 code into the console:
-
 ```js
 const shopping = ['bread', 'milk', 'cheese', 'hummus', 'noodles'];
 console.log(shopping);
 ```
-
 1. In the above example, each item is a string, but in an array we can store 
 various data types — strings, numbers, objects, and even other arrays. We can 
 also mix data types in a single array — we do not have to limit ourselves to 
 storing only numbers in one array, and in another only strings. For example:
-
 ```js
 const sequence = [1, 1, 2, 3, 5, 8, 13];
 const random = ['tree', 795, [0, 1, 2]];
 ```
-
 1. Before proceeding, create a few example arrays.
 
 ## Finding the length of an array
