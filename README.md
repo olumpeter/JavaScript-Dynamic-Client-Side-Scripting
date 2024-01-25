@@ -10,3 +10,4 @@ I will show you the projects I build using HTML, CSS and JavaScript that are mea
 1. [Basic math in JavaScript -- numbers and operators](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/4-basic-math-in-javascript--numbers-and-operators/active_learning/) 
 1. [Handling text -- strings in JavaScript](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/5-handling-text-strings-in-JavaScript/active_learning/)
 1. [Useful string methods](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/6-useful-string-methods/active_learning/)
+1. [Arrays](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/7-arrays/active_learning/)
