@@ -28,3 +28,6 @@ generate button is pressed.
   </dd>
   or click the following link:
   <dd>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/8-silly-story-generator/active_learning/">Visit website</a>
+  </dd>
+</dl>
