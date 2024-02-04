@@ -1,0 +1,36 @@
+body > div {
+    margin-bottom: 50px;
+}
+
+.active_learning_a_simple_calendar {
+    height: 500px; 
+    width: 50%; 
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.active_learning_a_simple_calendar ul {
+    padding-left: 0;
+}
+
+.active_learning_a_simple_calendar li {
+    display: block;
+    float: left;
+    width: 25%;
+    border: 2px solid white;
+    padding: 5px;
+    height: 40px;
+    background-color: #4a2db6;
+    color: white;
+}
+.active_learning_a_simple_calendar {
+font-family: sans-serif;
+}
+
+.active_learning_a_simple_calendar > h2 {
+font-size: 16px;
+}
+
