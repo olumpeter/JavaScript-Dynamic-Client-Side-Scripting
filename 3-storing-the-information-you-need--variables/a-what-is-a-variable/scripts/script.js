@@ -4,7 +4,7 @@ const withVariableButtonA = document.querySelector('.variable_example #button_a'
 const withVariableHeadingA = document.querySelector('.variable_example #heading_a');
 
 withVariableButtonA.onclick = () => {
-    const name = prompt('What is your name?');
+    let name = prompt('What is your name?');
     alert(`Hello ${name}, nice to meet you!`);
     withVariableHeadingA.textContent = `Welcome ${name}`;
 };

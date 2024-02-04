@@ -165,3 +165,4 @@ const paragraph1Task4 = document.createElement('p');
 paragraph1Task4.textContent = myString;
 
 task_4.appendChild(paragraph1Task4);
+
