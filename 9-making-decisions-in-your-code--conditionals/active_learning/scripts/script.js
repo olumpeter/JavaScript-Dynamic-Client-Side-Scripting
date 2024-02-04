@@ -312,9 +312,9 @@ task3Form.onsubmit = (task3Event) => {
     const task3MachineActive = task3MachineActiveSelect.value
     const task3LoginPasswordInput = document.querySelector('#task_3_login_password')
     const task3LoginPassword = task3LoginPasswordInput.value
-    
+
     if (task3MachineActive === 'yes' && task3LoginPassword === 'cheese') {
-        task3Paragraph2.textContent = 'You are logged in success'
+        task3Paragraph2.textContent = 'You are logged in successfully'
     } else {
         task3Paragraph2.textContent = 'Your login attempt was not successful';
     }
