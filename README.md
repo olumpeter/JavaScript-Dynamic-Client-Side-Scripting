@@ -13,3 +13,4 @@ I will show you the projects I build using HTML, CSS and JavaScript that are mea
 1. [Arrays](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/7-arrays/active_learning/)
 1. [Silly story generator](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/8-silly-story-generator/active_learning/)
 1. [Making decisions in your code — conditionals](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/9-making-decisions-in-your-code--conditionals/active_learning/)
+1. [Looping code](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/10-looping-code/active_learning/)
