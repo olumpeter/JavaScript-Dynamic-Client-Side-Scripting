@@ -273,10 +273,10 @@ our strings into just the form we want.
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/5-handling-text-strings-in-JavaScript/active_learning/
+    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/005-handling-text-strings-in-JavaScript/active_learning/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/5-handling-text-strings-in-JavaScript/active_learning/">Visit website</a>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/005-handling-text-strings-in-JavaScript/active_learning/">Visit website</a>
   </dd>
 </dl>
