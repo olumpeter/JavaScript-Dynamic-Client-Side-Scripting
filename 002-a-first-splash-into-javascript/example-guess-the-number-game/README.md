@@ -311,10 +311,10 @@ a &lt;p&gt; element, and the `guessCount` variable contains a number.
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/2-a-first-splash-into-javascript/example-guess-the-number-game/
+    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/002-a-first-splash-into-javascript/example-guess-the-number-game/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/2-a-first-splash-into-javascript/example-guess-the-number-game">Visit website</a>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/002-a-first-splash-into-javascript/example-guess-the-number-game">Visit website</a>
   </dd>
 </dl>
