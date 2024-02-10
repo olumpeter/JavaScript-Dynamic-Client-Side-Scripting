@@ -15,3 +15,4 @@ I will show you the projects I build using HTML, CSS and JavaScript that are mea
 1. [Making decisions in your code — conditionals](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/009-making-decisions-in-your-code--conditionals/active_learning/)
 1. [Looping code](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/010-looping-code/active_learning/)
 1. [Functions — reusable blocks of code](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/011-functions-reusable-blocks-of-code/active_learning/)
+1. [Build your own function](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/012-build-your-own-function/active_learning/)
