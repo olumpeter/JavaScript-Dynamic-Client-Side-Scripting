@@ -4,13 +4,13 @@ I will show you the projects I build using HTML, CSS and JavaScript that are mea
 
 ## Content:
 
-1. [What is JavaScript?](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/1-what-is-javascript/examples/)
-1. [A first splash into JavaScript: Example -- Guess the number game](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/2-a-first-splash-into-javascript/example-guess-the-number-game/)
-1. [Storing the information you need -- Variables](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/3-storing-the-information-you-need--variables/a-what-is-a-variable/) 
-1. [Basic math in JavaScript -- numbers and operators](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/4-basic-math-in-javascript--numbers-and-operators/active_learning/) 
-1. [Handling text -- strings in JavaScript](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/5-handling-text-strings-in-JavaScript/active_learning/)
-1. [Useful string methods](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/6-useful-string-methods/active_learning/)
-1. [Arrays](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/7-arrays/active_learning/)
-1. [Silly story generator](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/8-silly-story-generator/active_learning/)
-1. [Making decisions in your code — conditionals](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/9-making-decisions-in-your-code--conditionals/active_learning/)
-1. [Looping code](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/10-looping-code/active_learning/)
+1. [What is JavaScript?](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/001-what-is-javascript/examples/)
+1. [A first splash into JavaScript: Example -- Guess the number game](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/002-a-first-splash-into-javascript/example-guess-the-number-game/)
+1. [Storing the information you need -- Variables](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/003-storing-the-information-you-need--variables/a-what-is-a-variable/) 
+1. [Basic math in JavaScript -- numbers and operators](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/004-basic-math-in-javascript--numbers-and-operators/active_learning/) 
+1. [Handling text -- strings in JavaScript](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/005-handling-text-strings-in-JavaScript/active_learning/)
+1. [Useful string methods](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/006-useful-string-methods/active_learning/)
+1. [Arrays](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/007-arrays/active_learning/)
+1. [Silly story generator](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/008-silly-story-generator/active_learning/)
+1. [Making decisions in your code — conditionals](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/009-making-decisions-in-your-code--conditionals/active_learning/)
+1. [Looping code](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/010-looping-code/active_learning/)
