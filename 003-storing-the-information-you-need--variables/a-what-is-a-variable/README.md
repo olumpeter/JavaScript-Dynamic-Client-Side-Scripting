@@ -391,10 +391,10 @@ See the code for this task 3 below.
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/3-storing-the-information-you-need--variables/a-what-is-a-variable/
+    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/003-storing-the-information-you-need--variables/a-what-is-a-variable/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/3-storing-the-information-you-need--variables/a-what-is-a-variable">Visit website</a>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/003-storing-the-information-you-need--variables/a-what-is-a-variable">Visit website</a>
   </dd>
 </dl>
