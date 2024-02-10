@@ -137,10 +137,10 @@ A multi-line comment is written between the strings /* and */, e.g.
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/1-what-is-javascript/examples/
+    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/001-what-is-javascript/examples/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/1-what-is-javascript/examples">Visit website</a>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/001-what-is-javascript/examples">Visit website</a>
   </dd>
 </dl>
