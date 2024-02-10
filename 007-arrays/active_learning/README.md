@@ -436,10 +436,10 @@ If it works, you should see 'Emus,Egrets' appear in the page.
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/7-arrays/active_learning/
+    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/007-arrays/active_learning/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/7-arrays/active_learning/">Visit website</a>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/007-arrays/active_learning/">Visit website</a>
   </dd>
 </dl>
