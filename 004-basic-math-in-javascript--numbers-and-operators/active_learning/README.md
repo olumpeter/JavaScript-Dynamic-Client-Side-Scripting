@@ -379,10 +379,10 @@ const passwordMatchTask3 = password1Task3 === password2Task3;
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/4-basic-math-in-javascript--numbers-and-operators/active_learning/
+    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/004-basic-math-in-javascript--numbers-and-operators/active_learning/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/4-basic-math-in-javascript--numbers-and-operators/active_learning">Visit website</a>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/004-basic-math-in-javascript--numbers-and-operators/active_learning">Visit website</a>
   </dd>
 </dl>
