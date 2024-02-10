@@ -24,10 +24,10 @@ generate button is pressed.
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/8-silly-story-generator/active_learning/
+    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/008-silly-story-generator/active_learning/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/8-silly-story-generator/active_learning/">Visit website</a>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/008-silly-story-generator/active_learning/">Visit website</a>
   </dd>
 </dl>
