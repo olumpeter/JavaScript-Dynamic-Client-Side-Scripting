@@ -288,6 +288,6 @@ steps to building up your own custom function.
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/011-functions-reusable-blocks-of-code/active_learning"</a>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/011-functions-reusable-blocks-of-code/active_learning">Visit website</a>
   </dd>
 </dl>
