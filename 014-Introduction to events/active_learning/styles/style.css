@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body > div {
+    margin: 20px;
+}
+
+body > div {
+    margin-bottom: 50px;
+}
+
+.an_example_handling_a_click_event,
+.using_event_handler_properties,
+.inline_event_handlers #example_1,
+.event_objects #example_1 {
+    width: 50%;
+    height: 200px;
+    border: 5px solid black;
+    padding: 20px;
+}
+
+.event_delegation {
+    width: 400px;
+    height: 400px;
+    border: 1px solid gray;
+}
+
+.event_delegation > .tile {
+    height: 100px;
+    width: 25%;
+    float: left;
+    border: 1px solid gray;
+}
+
+/* Test your skills: Events */
+
+/* Task 1 */
+
+.task_1 > button {
+    margin: 20px 0 20px 20px;
+    background-color: red;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+/* Task 2 */
+
+.task_2 {
+    border: 1px solid gray;
+    max-width: 400px;
+}
+
+.task_2 > button {
+    display: block;
+    margin: 20px 0 20px 20px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    width: 100px;
+}
+
