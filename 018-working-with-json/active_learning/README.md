@@ -201,10 +201,10 @@ JavaScript.
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/017-classes-in-javascript/active_learning/
+    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/018-working-with-json/active_learning/
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/017-classes-in-javascript/active_learning/">Visit website</a>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/018-working-with-json/active_learning/">Visit website</a>
   </dd>
 </dl>
