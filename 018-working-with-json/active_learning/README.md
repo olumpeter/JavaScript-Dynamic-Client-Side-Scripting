@@ -38,38 +38,38 @@ data hierarchy, like so:
 
 ```json
 {
-  &quot;squadName&quot;: &quot;Super hero squad&quot;,
-  &quot;homeTown&quot;: &quot;Metro City&quot;,
-  &quot;formed&quot;: 2016,
-  &quot;secretBase&quot;: &quot;Super tower&quot;,
-  &quot;active&quot;: true,
-  &quot;members&quot;: [
+  "squadName": "Super hero squad",
+  "homeTown": "Metro City",
+  "formed": 2016,
+  "secretBase": "Super tower",
+  "active": true,
+  "members": [
     {
-      &quot;name&quot;: &quot;Molecule Man&quot;,
-      &quot;age&quot;: 29,
-      &quot;secretIdentity&quot;: &quot;Dan Jukes&quot;,
-      &quot;powers&quot;: [&quot;Radiation resistance&quot;, &quot;Turning tiny&quot;, &quot;Radiation blast&quot;]
+      "name": "Molecule Man",
+      "age": 29,
+      "secretIdentity": "Dan Jukes",
+      "powers": ["Radiation resistance", "Turning tiny", "Radiation blast"]
     },
     {
-      &quot;name&quot;: &quot;Madame Uppercut&quot;,
-      &quot;age&quot;: 39,
-      &quot;secretIdentity&quot;: &quot;Jane Wilson&quot;,
-      &quot;powers&quot;: [
-        &quot;Million tonne punch&quot;,
-        &quot;Damage resistance&quot;,
-        &quot;Superhuman reflexes&quot;
+      "name": "Madame Uppercut",
+      "age": 39,
+      "secretIdentity": "Jane Wilson",
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
       ]
     },
     {
-      &quot;name&quot;: &quot;Eternal Flame&quot;,
-      &quot;age&quot;: 1000000,
-      &quot;secretIdentity&quot;: &quot;Unknown&quot;,
-      &quot;powers&quot;: [
-        &quot;Immortality&quot;,
-        &quot;Heat Immunity&quot;,
-        &quot;Inferno&quot;,
-        &quot;Teleportation&quot;,
-        &quot;Interdimensional travel&quot;
+      "name": "Eternal Flame",
+      "age": 1000000,
+      "secretIdentity": "Unknown",
+      "powers": [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
       ]
     }
   ]
@@ -111,19 +111,19 @@ JSON, for example:
 ```json
 [
   {
-    &quot;name&quot;: &quot;Molecule Man&quot;,
-    &quot;age&quot;: 29,
-    &quot;secretIdentity&quot;: &quot;Dan Jukes&quot;,
-    &quot;powers&quot;: [&quot;Radiation resistance&quot;, &quot;Turning tiny&quot;, &quot;Radiation blast&quot;]
+    "name": "Molecule Man",
+    "age": 29,
+    "secretIdentity": "Dan Jukes",
+    "powers": ["Radiation resistance", "Turning tiny", "Radiation blast"]
   },
   {
-    &quot;name&quot;: &quot;Madame Uppercut&quot;,
-    &quot;age&quot;: 39,
-    &quot;secretIdentity&quot;: &quot;Jane Wilson&quot;,
-    &quot;powers&quot;: [
-      &quot;Million tonne punch&quot;,
-      &quot;Damage resistance&quot;,
-      &quot;Superhuman reflexes&quot;
+    "name": "Madame Uppercut",
+    "age": 39,
+    "secretIdentity": "Jane Wilson",
+    "powers": [
+      "Million tonne punch",
+      "Damage resistance",
+      "Superhuman reflexes"
     ]
   }
 ]  
