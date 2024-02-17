@@ -22,3 +22,4 @@ I will show you the projects I build using HTML, CSS and JavaScript that are mea
 1. [JavaScript object basics](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/016-javascript-object-basics/active_learning)
 1. [Classes in JavaScript](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/017-classes-in-javascript/active_learning)
 1. [Working with JSON](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/018-working-with-json/active_learning)
+1. [Introducing asynchronous JavaScript](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/019-introducing-asynchronous-javascript/active_learning)
