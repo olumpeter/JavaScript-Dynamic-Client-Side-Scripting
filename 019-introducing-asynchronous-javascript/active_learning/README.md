@@ -1,0 +1,121 @@
+# Introducing asynchronous JavaScript
+
+Asynchronous programming is a technique that enables your program to start a 
+potentially long-running task and still be able to be responsive to other 
+events while that task runs, rather than having to wait until that task has 
+finished. Once that task has finished, your program is presented with the result.
+
+Many functions provided by browsers, especially the most interesting ones, can 
+potentially take a long time, and therefore, are asynchronous. For example:
+
+  - Making HTTP requests using `fetch()`
+  - Accessing a user's camera or microphone using `getUserMedia()`
+  - Asking a user to select files using `showOpenFilePicker()`
+
+So even though you may not have to implement your own asynchronous functions 
+very often, you are very likely to need to use them correctly.
+
+In this article, we'll start by looking at the problem with long-running 
+synchronous functions, which make asynchronous programming a necessity.
+
+## Synchronous programming
+
+Consider the following code:
+
+```js
+const name = 'Miriam';
+const greeting = `Hello, my name is ${name}!`;
+console.log(greeting);
+// 'Hello, my name is Miriam!'    
+```
+
+Here, `makeGreeting()` is a synchronous function because the caller has to 
+wait for the function to finish its work and return a value before the caller 
+can continue.
+
+## A long-running synchronous function
+
+What if the synchronous function takes a long time?
+
+The program below uses a very inefficient algorithm to generate multiple large 
+prime numbers when a user clicks the 'Generate primes' button. The higher the 
+number of primes a user specifies, the longer the operation will take.
+
+Try clicking 'Generate primes'. Depending on how fast your computer is, it 
+will probably take a few seconds before the program displays the 'Finished!' 
+message.
+
+## The trouble with long-running synchronous functions
+
+The next example is just like the last one, except we added a text box for 
+you to type in. This time, click 'Generate primes', and try typing in the 
+text box immediately after.
+
+You'll find that while our `generatePrimes()` function is running, our program 
+is completely unresponsive: you can't type anything, click anything, or do 
+anything else.
+
+The reason for this is that this JavaScript program is `single-threaded`. A 
+thread is a sequence of instructions that a program follows. Because the 
+program consists of a single thread, it can only do one thing at a time: so 
+if it is waiting for our long-running synchronous call to return, it can't do 
+anything else.
+
+What we need is a way for our program to:
+
+  1. Start a long-running operation by calling a function.
+  1. Have that function start the operation and return immediately, so that 
+  our program can still be responsive to other events.
+  1. Have the function execute the operation in a way that does not block the 
+  1. main thread, for example by starting a new thread.
+  1. Notify us with the result of the operation when it eventually completes.
+
+That's precisely what asynchronous functions enable us to do. The rest of this 
+module explains how they are implemented in JavaScript.
+
+## Event handlers
+
+Event handlers are really a form of asynchronous programming: you provide a 
+function (the event handler) that will be called, not right away, but 
+whenever the event happens. If 'the event' is 'the asynchronous operation has 
+completed', then that event could be used to notify the caller about the 
+result of an asynchronous function call.
+
+Some early asynchronous APIs used events in just this way. The 
+`XMLHttpRequest` API enables you to make HTTP requests to a remote server 
+using JavaScript. Since this can take a long time, it's an asynchronous API, 
+and you get notified about the progress and eventual completion of a request 
+by attaching event listeners to the `XMLHttpRequest` object.
+
+The following example shows this in action. Press 'Click to start request' to 
+send a request. We create a new XMLHttpRequest and listen for its loadend event. 
+The handler logs a 'Finished!' message along with the status code.
+
+This is just like the event handlers we've encountered in a previous module, 
+except that instead of the event being a user action, such as the user clicking 
+a button, the event is a change in the state of some object.
+
+## Callbacks
+
+An event handler is a particular type of callback. A callback is just a 
+function that's passed into another function, with the expectation that the 
+callback will be called at the appropriate time. As we just saw, callbacks 
+used to be the main way asynchronous functions were implemented in JavaScript.
+
+However, callback-based code can get hard to understand when the callback 
+itself has to call functions that accept a callback. This is a common 
+situation if you need to perform some operation that breaks down into a 
+series of asynchronous functions. For example, consider the following:
+
+## How you can access this live website
+
+<dl>
+  Use the following URL:
+  <dd>
+    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/019-introducing-asynchronous-javascript/active_learning/
+  </dd>
+  or click the following link:
+  <dd>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/019-introducing-asynchronous-javascript/active_learning/">Visit website</a>
+  </dd>
+</dl>
