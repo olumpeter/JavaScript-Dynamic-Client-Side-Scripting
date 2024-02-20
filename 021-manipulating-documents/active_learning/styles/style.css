@@ -1,0 +1,13 @@
+body > div {
+    margin: 20px 20px 50px 20px;
+}
+
+#my_shopping_list li {
+    margin-bottom: 10px;
+}
+
+#my_shopping_list li button{
+    font-size: 12px;
+    margin-left: 20px;
+    color: #666;
+}
