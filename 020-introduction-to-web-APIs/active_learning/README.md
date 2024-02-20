@@ -79,13 +79,13 @@ the [MDN APIs index page](https://developer.mozilla.org/en-US/docs/Web/API).
 In particular, the most common categories of browser APIs you'll use (and which 
 we'll cover in this module in greater detail) are:
 
-  - *APIs for manipulating documents* loaded into the browser. The most obvious 
+  - **APIs for manipulating documents** loaded into the browser. The most obvious 
   example is the DOM (Document Object Model) API, which allows you to manipulate 
   HTML and CSS — creating, removing and changing HTML, dynamically applying new 
   styles to your page, etc. Every time you see a popup window appear on a page 
   or some new content displayed, for example, that's the DOM in action. Find out 
   more about these types of API in Manipulating documents.
-  - *APIs that fetch data from the server* to update small sections of a webpage 
+  - **APIs that fetch data from the server** to update small sections of a webpage 
   on their own are very commonly used. This seemingly small detail has had a huge 
   impact on the performance and behavior of sites — if you just need to update a 
   stock listing or list of available new stories, doing it instantly without having 
@@ -93,7 +93,7 @@ we'll cover in this module in greater detail) are:
   more responsive and 'snappy'. The main API used for this is the Fetch API, although 
   older code might still use the `XMLHttpRequest` API. You may also come across the term Ajax, 
   which describes this technique. Find out more about such APIs in Fetching data from the server.
-  - *APIs for drawing and manipulating graphics* are widely supported in 
+  - **APIs for drawing and manipulating graphics** are widely supported in 
   browsers — the most popular ones are Canvas and WebGL, which allow you to 
   programmatically update the pixel data contained in an HTML &lt;canvas&gt; 
   element to create 2D and 3D scenes. For example, you might draw shapes such 
@@ -101,16 +101,16 @@ we'll cover in this module in greater detail) are:
   to it such as sepia or grayscale using the Canvas API, or create a complex 3D 
   scene with lighting and textures using WebGL. Such APIs are often combined 
   with APIs for creating animation loops (such as window.requestAnimationFrame()) and others to make constantly updating scenes like cartoons and games.
-  - *Audio and Video APIs* like HTMLMediaElement, the Web Audio API, and WebRTC 
+  - **Audio and Video APIs** like HTMLMediaElement, the Web Audio API, and WebRTC 
   allow you to do really interesting things with multimedia such as creating 
   custom UI controls for playing audio and video, displaying text tracks like 
   captions and subtitles along with your videos, grabbing video from your web 
   camera to be manipulated via a canvas (see above) or displayed on someone 
   else's computer in a web conference, or adding effects to audio tracks 
   (such as gain, distortion, panning, etc.).
-  - *Device APIs* enable you to interact with device hardware: for example, 
+  - **Device APIs** enable you to interact with device hardware: for example, 
   accessing the device GPS to find the user's position using the Geolocation API.
-  - *Client-side storage APIs* enable you to store data on the client-side, so 
+  - **Client-side storage APIs** enable you to store data on the client-side, so 
   you can create an app that will save its state between page loads, and perhaps 
   even work when the device is offline. There are several options available, e.g. 
   simple name/value storage with the Web Storage API, and more complex database 
