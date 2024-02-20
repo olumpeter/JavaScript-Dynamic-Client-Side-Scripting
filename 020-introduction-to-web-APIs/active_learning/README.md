@@ -256,6 +256,6 @@ we'll cover in this module in greater detail) are:
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/020-introduction-to-web-APIs/active_learningg/">Visit website</a>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/020-introduction-to-web-APIs/active_learning/">Visit website</a>
   </dd>
 </dl>
