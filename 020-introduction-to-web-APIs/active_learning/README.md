@@ -119,7 +119,7 @@ we'll cover in this module in greater detail) are:
   ### Common third-party APIs
 
   Third-party APIs come in a large variety; some of the more popular ones that 
-  you are likely to make use of sooner or later are:
+  you are likely to make use of sooner or later are
   
     - Map APIs, like Mapquest and the Google Maps API, which allow you to do 
     all sorts of things with maps on your web pages.
