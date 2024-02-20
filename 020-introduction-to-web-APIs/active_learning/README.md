@@ -156,14 +156,14 @@ we'll cover in this module in greater detail) are:
   Let's return to the example of the Web Audio API — this is a fairly complex 
   API, which consists of a number of objects. The most obvious ones are:
 
-    - `AudioContext`, which represents an audio graph that can be used to 
-    manipulate audio playing inside the browser, and has a number of methods 
-    and properties available to manipulate that audio.
-    - `MediaElementAudioSourceNode`, which represents an &lt;audio&gt; element 
-    containing sound you want to play and manipulate inside the audio context.
-    - `AudioDestinationNode`, which represents the destination of the audio, 
-    i.e. the device on your computer that will actually output it — usually 
-    your speakers or headphones.
+  - `AudioContext`, which represents an audio graph that can be used to 
+  manipulate audio playing inside the browser, and has a number of methods 
+  and properties available to manipulate that audio.
+  - `MediaElementAudioSourceNode`, which represents an &lt;audio&gt; element 
+  containing sound you want to play and manipulate inside the audio context.
+  - `AudioDestinationNode`, which represents the destination of the audio, 
+  i.e. the device on your computer that will actually output it — usually 
+  your speakers or headphones.
 
   ### They have recognizable entry points
 
