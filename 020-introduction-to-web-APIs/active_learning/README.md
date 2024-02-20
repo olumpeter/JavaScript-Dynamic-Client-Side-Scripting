@@ -119,28 +119,28 @@ we'll cover in this module in greater detail) are:
   ### Common third-party APIs
 
   Third-party APIs come in a large variety; some of the more popular ones that 
-  you are likely to make use of sooner or later are
-  
-    - Map APIs, like Mapquest and the Google Maps API, which allow you to do 
-    all sorts of things with maps on your web pages.
-    - The Facebook suite of APIs, which enables you to use various parts of the 
-    Facebook ecosystem to benefit your app, such as by providing app login 
-    using Facebook login, accepting in-app payments, rolling out targeted ad 
-    campaigns, etc.
-    - The Telegram APIs, which allows you to embed content from Telegram 
-    channels on your website, in addition to providing support for bots.
-    - The YouTube API, which allows you to embed YouTube videos on your site, 
-    search YouTube, build playlists, and more.
-    - The Pinterest API, which provides tools to manage Pinterest boards and 
-    pins to include them in your website.
-    - The Twilio API, which provides a framework for building voice and video 
-    call functionality into your app, sending SMS/MMS from your apps, and more.
-    - The Disqus API, which provides a commenting platform that can be 
-    integrated into your site.
-    - The Mastodon API, which enables you to manipulate features of the 
-    Mastodon social network programmatically.
-    - The IFTTT API, which enables integrating multiple APIs through one 
-    platform.
+  you are likely to make use of sooner or later are:
+
+  - Map APIs, like Mapquest and the Google Maps API, which allow you to do 
+  all sorts of things with maps on your web pages.
+  - The Facebook suite of APIs, which enables you to use various parts of the 
+  Facebook ecosystem to benefit your app, such as by providing app login 
+  using Facebook login, accepting in-app payments, rolling out targeted ad 
+  campaigns, etc.
+  - The Telegram APIs, which allows you to embed content from Telegram 
+  channels on your website, in addition to providing support for bots.
+  - The YouTube API, which allows you to embed YouTube videos on your site, 
+  search YouTube, build playlists, and more.
+  - The Pinterest API, which provides tools to manage Pinterest boards and 
+  pins to include them in your website.
+  - The Twilio API, which provides a framework for building voice and video 
+  call functionality into your app, sending SMS/MMS from your apps, and more.
+  - The Disqus API, which provides a commenting platform that can be 
+  integrated into your site.
+  - The Mastodon API, which enables you to manipulate features of the 
+  Mastodon social network programmatically.
+  - The IFTTT API, which enables integrating multiple APIs through one 
+  platform.
   
   ## How do APIs work?
 
