@@ -97,7 +97,7 @@ call `response.text()`, to get the response body as text.
 It turns out that `response.text()` is also asynchronous, so we return the 
 promise it returns, and pass a function into the `then()` method of this new 
 promise. This function will be called when the response text is ready, and 
-inside it we will update our <pre> block with the text.
+inside it we will update our &lt;pre&gt; block with the text.
 
 Finally, we chain a `catch()` handler at the end, to catch any errors thrown 
 in either of the asynchronous functions we called or their handlers.
