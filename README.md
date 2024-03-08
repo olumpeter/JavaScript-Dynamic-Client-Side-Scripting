@@ -28,3 +28,4 @@ I will show you the projects I build using HTML, CSS and JavaScript that are mea
 1. [Fetching data from the server](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/022-fetching-data-from-the-server/fetching-text-content/active_learning/)
 1. [The can store](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/022-fetching-data-from-the-server/the-can-store/active_learning/)
 1. [Web projects assignment: Calculate String Length](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/023-javascript-assignments/001-calculate-string-length/)
+1. [Web projects assignment: Count occurrences of substring within string](https://github.com/olumpeter/JavaScript-Dynamic-Client-Side-Scripting/tree/main/023-javascript-assignments/002-count-occurrences-of-substring-within-string/)
