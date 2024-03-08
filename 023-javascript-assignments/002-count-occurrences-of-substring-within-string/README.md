@@ -14,7 +14,7 @@ https://string-functions.com/countsubstrings.aspx
 <dl>
   Use the following URL:
   <dd>
-    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/023-javascript-assignments/001-calculate-string-length/
+    https://olumpeter.github.io/javascript-dynamic-client-side-scripting/023-javascript-assignments/002-count-occurrences-of-substring-within-string/
   </dd>
   or click the following link:
   <dd>
