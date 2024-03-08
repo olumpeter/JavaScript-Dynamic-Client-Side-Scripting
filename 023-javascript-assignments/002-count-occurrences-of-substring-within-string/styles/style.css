@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.count_substring_within_string {
+    width: 50%;
+}
+
+#input_text_area {
+    border-color: #00d1b2;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding: calc(.75em - 1px);
+    background-color: #fff;
+    border-radius: 4px;
+    color: #363636;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#count_button {
+    font-size: 1.25rem;
+    background-color: #00d1b2;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    border-width: 1px;
+    padding: calc(.5em - 1px) 1em;;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 4px;
+    height: 2.5em;
+    line-height: 1.5;
+    resize: vertical;
+    margin-left: .5rem;
+}
+
+.case_insensitive_checkbox {
+	cursor: pointer;
+	display: inline-block;
+	line-height: 1.25; 
+    margin-right: .5rem;
+    
+}
+
+#bin_icon_button > img{
+    width: 28px;
+    height: 36px;
+}
+
+#bin_icon_button {
+	cursor: pointer;
+	display: inline-block;
+    margin-left: .5rem;
+    
+}
+
+.outputs {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.outputs > p{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0
+}
+
+#search_substring {
+    width: 200px;
+    border-color: #00d1b2;
+    display: block;
+    padding: calc(.75em - 1px);
+    background-color: #fff;
+    border-radius: 4px;
+    color: #363636;
+    margin: 0;
+    line-height: 1.5;
+    margin-top: 5px;
+}

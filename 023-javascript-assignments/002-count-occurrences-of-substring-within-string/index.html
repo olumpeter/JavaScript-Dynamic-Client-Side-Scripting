@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Peter Olum">
+
+    <meta name="description" content="
+    # Web projects assignment
+
+    ## Count occurrences of substring within string
+
+    Make a JavaScript app that computes the number of substrings in a particular
+    string of text.
+    
+    ## Reference
+
+    https://string-functions.com/countsubstrings.aspx
+
+
+    ">
+
+    <title>Count occurrences of substring within string</title>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+    <script src="scripts/script.js" defer></script>
+
+  </head>
+
+  <body>
+    <div class="count_substring_within_string">
+      <h1>Count occurrences of substring within string</h1>
+
+      <p>
+        <b>Enter the string to find:
+          <input name="search_substring" type="text" value="" id="search_substring" autofocus>
+        </b>
+      </p>
+      
+      <p>
+        <b>Enter the string to search within, and then click "Count!":</b>
+      </p>
+
+      <textarea id="input_text_area" rows="6" placeholder="Enter Text to count occurrences of substring"  autofocus></textarea>
+
+      <div class="buttons">
+        <label><input type="checkbox" id="case_insensitive_checkbox" checked>Case insensitive</label>
+        <button id="count_button">Count</button>
+        <button id="bin_icon_button"><img src="images/bin.png" alt="bin icon"></button>
+      </div>
+
+      <div class="outputs">
+        <p id="paragraph1"></p>
+        <p id="paragraph2"></p>
+      </div>
+    </div>
+
+  </body>
+</html>
+
