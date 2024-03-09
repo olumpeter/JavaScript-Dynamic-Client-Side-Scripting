@@ -18,6 +18,6 @@ https://string-functions.com/countsubstrings.aspx
   </dd>
   or click the following link:
   <dd>
-    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/002-count-occurrences-of-substring-within-string">Visit website/</a>
+    <a href="https://olumpeter.github.io/javascript-dynamic-client-side-scripting/023-javascript-assignments/002-count-occurrences-of-substring-within-string/">Visit website/</a>
   </dd>
 </dl>
