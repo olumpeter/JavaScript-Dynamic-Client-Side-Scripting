@@ -37,19 +37,15 @@
       <h1>Count occurrences of substring within string</h1>
 
       <p>
-        <b>Enter the string to find:
-          <input name="search_substring" type="text" value="" id="search_substring" autofocus>
-        </b>
+        <label for="search_substring"><b>Enter the string to find:</b></label>
+        <input name="search_substring" type="text" value="" id="search_substring" autofocus>
       </p>
       
-      <p>
-        <b>Enter the string to search within, and then click "Count!":</b>
-      </p>
-
-      <textarea id="input_text_area" rows="6" placeholder="Enter Text to count occurrences of substring"  autofocus></textarea>
+      <label for="input_text_area"><b>Enter the string to search within, and then click "Count!":</b></label>
+      <textarea id="input_text_area" rows="6" autofocus></textarea>
 
       <div class="buttons">
-        <label><input type="checkbox" id="case_insensitive_checkbox" checked>Case insensitive</label>
+        <label for="case_insensitive_checkbox"><input type="checkbox" id="case_insensitive_checkbox" checked>Case insensitive</label>
         <button id="count_button">Count</button>
         <button id="bin_icon_button"><img src="images/bin.png" alt="bin icon"></button>
       </div>

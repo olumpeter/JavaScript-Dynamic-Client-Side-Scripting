@@ -11,7 +11,7 @@ body {
 }
 
 #input_text_area {
-    border-color: #00d1b2;
+    border: 2px solid #00d1b2;
     display: block;
     width: 100%;
     max-width: 100%;
@@ -78,14 +78,14 @@ body {
 }
 
 .outputs > p{
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 0;
     padding: 0
 }
 
 #search_substring {
     width: 200px;
-    border-color: #00d1b2;
+    border: 2px solid #00d1b2;
     display: block;
     padding: calc(.75em - 1px);
     background-color: #fff;
@@ -95,3 +95,9 @@ body {
     line-height: 1.5;
     margin-top: 5px;
 }
+
+#search_substring:focus, #input_text_area:focus { 
+    outline: none !important;
+    border: 2px solid red !important;
+    box-shadow: 5px 5px 10px #00d1b2;
+ }

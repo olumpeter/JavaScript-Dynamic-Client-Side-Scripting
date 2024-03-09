@@ -9,35 +9,55 @@ const paragraph1 = document.querySelector('#paragraph1')
 const paragraph2 = document.querySelector('#paragraph2') 
 
 countButton.addEventListener('click', () => {
+    paragraph1.textContent = ''
+    paragraph2.textContent = ''
     count = 0
     for (let i = 0; i < inputTextArea.value.length; i++) {
         if (caseInsensitiveCheckbox.checked) {
             if (inputTextArea.value.slice(i, searchSubstring.value.length + i).toLowerCase() === searchSubstring.value.toLowerCase()) {
                 count++
+                firstSubstringIndex = inputTextArea.value.toLowerCase().indexOf(searchSubstring.value)
             }
         } else {
             if (inputTextArea.value.slice(i, searchSubstring.value.length + i) === searchSubstring.value) {
                 count++
+                firstSubstringIndex = inputTextArea.value.indexOf(searchSubstring.value)
             }
         }
     }
-    paragraph1.innerHTML = `The substring <strong>${searchSubstring.value}</strong> occurs <strong>${count}</strong> times.`
-    paragraph2.innerHTML = `The substring <strong>${searchSubstring.value}</strong> occurs <strong>${count}</strong> times.`
 
+    if (caseInsensitiveCheckbox.checked) {
+        firstSubstringIndex = inputTextArea.value.toLowerCase().indexOf(searchSubstring.value.toLowerCase())
+    } else {
+        firstSubstringIndex = inputTextArea.value.indexOf(searchSubstring.value)
+    }
+
+    if (count === 0) {
+        paragraph1.innerHTML = `The substring <strong>${searchSubstring.value}</strong> occurs <strong>${count}</strong> times.`
+    } else {
+        paragraph1.innerHTML = `The substring <strong>${searchSubstring.value}</strong> occurs <strong>${count}</strong> times.`
+        paragraph2.innerHTML = `The first occurrence the substring <strong>${searchSubstring.value}</strong> is at position </strong>${firstSubstringIndex}</strong>.`
+    }
+    
 })
 
+binIconButton.addEventListener('click', () => {
+    searchSubstring.value = ''
+    inputTextArea.value = ''
+    paragraph1.textContent = ''
+    paragraph2.textContent = ''
+    caseInsensitiveCheckbox.checked = 'true'
+})
 
+caseInsensitiveCheckbox.addEventListener('change', () => {
+    if (caseInsensitiveCheckbox.checked) {
+        paragraph1.textContent = ''
+        paragraph2.textContent = ''
+        caseInsensitiveCheckbox.checked = 'true'
+    } else {
+        paragraph1.textContent = ''
+        paragraph2.textContent = ''
+        caseInsensitiveCheckbox.checked = 'false'
+    }
+})
 
-// binIconButton.addEventListener('click', () => {
-//     inputTextArea.value = ''
-//     outputStringLengthParagraph.textContent = ''
-//     isAutoCheckbox.checked = 'true'
-// })
-
-// isAutoCheckbox.addEventListener('change', () => {
-//     if (isAutoCheckbox.checked) {
-//         outputStringLengthParagraph.innerHTML = `Your string is <strong>${inputTextArea.value.length}</strong> characters long.`
-//     } else {
-//         outputStringLengthParagraph.innerHTML = ''
-//     }
-// })
