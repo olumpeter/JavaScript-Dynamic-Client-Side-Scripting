@@ -11,7 +11,7 @@ const paragraph2 = document.querySelector('#paragraph2')
 countButton.addEventListener('click', () => {
     paragraph1.textContent = ''
     paragraph2.textContent = ''
-    count = 0
+    let count = 0
     for (let i = 0; i < inputTextArea.value.length; i++) {
         if (caseInsensitiveCheckbox.checked) {
             if (inputTextArea.value.slice(i, searchSubstring.value.length + i).toLowerCase() === searchSubstring.value.toLowerCase()) {
@@ -53,11 +53,11 @@ caseInsensitiveCheckbox.addEventListener('change', () => {
     if (caseInsensitiveCheckbox.checked) {
         paragraph1.textContent = ''
         paragraph2.textContent = ''
-        caseInsensitiveCheckbox.checked = 'true'
+        caseInsensitiveCheckbox.setAttribute('checked')
     } else {
         paragraph1.textContent = ''
         paragraph2.textContent = ''
-        caseInsensitiveCheckbox.checked = 'false'
+        caseInsensitiveCheckbox.removeAttribute('checked')
     }
 })
 
